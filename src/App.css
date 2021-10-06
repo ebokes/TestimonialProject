@@ -31,3 +31,67 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+.landing-page {
+  width: 586px;
+  height: 180px;
+  margin-left: 170px;
+}
+
+.amazing {
+  position: absolute;
+  width: 586px;
+  height: 180px;
+  left: 174px;
+  top: 258px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.here {
+  position: absolute;
+  width: 489px;
+  height: 62px;
+  left: 173px;
+  top: 462px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 172% */
+
+  letter-spacing: 0.02em;
+
+  color: #494949;
+}
+
+.elipse {
+  position: absolute;
+  width: 711px;
+  height: 711px;
+  left: 662px;
+  top: 209px;
+  border-radius: 50%;
+
+  background: #fff8f5;
+  z-index: -100;
+}
+
+.testimonial-img-1 {
+  position: absolute;
+  width: 536px;
+  height: 568px;
+  left: 793px;
+  top: 158px;
+}
