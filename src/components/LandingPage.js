@@ -5,7 +5,8 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <h1 className="amazing">
-        Amazing Experiences from Our Wonderful Customers
+        <span style={{ display: "block" }}>Amazing</span> Experiences from Our
+        Wonderful Customers
       </h1>
       <p className="here">
         Here is what customers and vendors are saying about us, you can share
