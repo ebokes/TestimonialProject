@@ -5,5 +5,144 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
+}
+/* font-family: 'Inter', sans-serif; */
+.navbar {
+  border: 1px solid #00000014;
+  box-shadow: 1px 4px 4px 0px #0000000a;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0 247px;
+}
+
+.navbar ul li {
+  padding: 17px 16px;
+}
+
+.navbar ul li a {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.landing-page {
+  width: 586px;
+  height: 180px;
+  margin-left: 170px;
+}
+
+.amazing {
+  position: absolute;
+  width: 586px;
+  height: 180px;
+  left: 174px;
+  top: 258px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.here {
+  position: absolute;
+  width: 489px;
+  height: 62px;
+  left: 173px;
+  top: 462px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 172% */
+
+  letter-spacing: 0.02em;
+
+  color: #494949;
+}
+
+.elipse {
+  position: absolute;
+  width: 711px;
+  height: 711px;
+  left: 662px;
+  top: 209px;
+  border-radius: 50%;
+
+  background: #fff8f5;
+  z-index: -100;
+}
+
+.testimonial-img-1 {
+  position: absolute;
+  width: 536px;
+  height: 568px;
+  left: 793px;
+  top: 158px;
+}
+
+.footer {
+  background: #25201d;
+  width: 1440px;
+  height: 404px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 180px;
+}
+
+.footer-links-container {
+  width: 180px;
+  line-height: 2.1;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 16.41px;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+}
+
+ul li h4 {
+  margin-bottom: 10px;
+}
+
+ul li a i {
+  margin-right: 10px;
+  background-color: white;
+  color: #25201d;
+  padding: 4px 0 4px 4.5px;
+  border-radius: 50%;
+  width: 23px;
 }

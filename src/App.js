@@ -1,9 +1,15 @@
 import "./App.css";
+import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Application in progress...</h1>
+      <Navbar />
+      <LandingPage />
+      {/* <CallToAction /> */}
+      <Footer />
     </div>
   );
 }
