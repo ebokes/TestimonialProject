@@ -7,6 +7,7 @@
 body {
   font-family: Roboto;
 }
+
 /* Global */
 .container {
   width: 80%;
@@ -67,4 +68,93 @@ header a:hover{
   text-align: center;
   margin-top: -10.23px;
   padding: 0 15px;
+}
+=======
+
+.navbar {
+  border: 1px solid #00000014;
+}
+
+.navbar ul {
+  display: flex;
+  box-shadow: 1px 4px 4px 0px #0000000a;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0 247px;
+}
+
+.navbar ul li {
+  padding: 17px 16px;
+}
+
+.navbar ul li a {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.landing-page {
+  width: 586px;
+  height: 180px;
+  margin-left: 170px;
+}
+
+.amazing {
+  position: absolute;
+  width: 586px;
+  height: 180px;
+  left: 174px;
+  top: 258px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.here {
+  position: absolute;
+  width: 489px;
+  height: 62px;
+  left: 173px;
+  top: 462px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 172% */
+
+  letter-spacing: 0.02em;
+
+  color: #494949;
+}
+
+.elipse {
+  position: absolute;
+  width: 711px;
+  height: 711px;
+  left: 662px;
+  top: 209px;
+  border-radius: 50%;
+
+  background: #fff8f5;
+  z-index: -100;
+}
+
+.testimonial-img-1 {
+  position: absolute;
+  width: 536px;
+  height: 568px;
+  left: 793px;
+  top: 158px;
 }
