@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import StoryPage1 from "./components/StoryPage1";
 import StoryPage2 from "./components/StoryPage2";
 
+
 function App() {
   return (
     <div className="App">
