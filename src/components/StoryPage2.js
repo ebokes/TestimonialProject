@@ -1,17 +1,17 @@
 import React from "react";
-import ladies from "../img/black-beautiful-ladies-smiling 1.png";
+import woman from "../img/woman-shoppingbag-card 1.png";
 import line from "../img/Vector 3.png";
 
-const StoryPage1 = () => {
+const StoryPage2 = () => {
   return (
-    <div className="story1">
-      <div className="shape">
-        <img src={ladies} alt="" />
+    <div className="story2">
+      <div className="shape2">
+        <img src={woman} alt="" className="woman" />
       </div>
-      <div className="story1-right">
-        <h2 className="title">Tolu & Joy's Experience</h2>
-        <p className="rounded-block">customer</p>
-        <p className="body">
+      <div className="story2-left">
+        <h2 className="title">Josiah’s Experience</h2>
+        <p className="rounded-block2">vendor</p>
+        <p className="body2">
           I had the best experience shopping with vasiti. Usability of the
           website was great, very good customer service, an all round great
           experience. I would definately be coming back! I had the best
@@ -19,7 +19,7 @@ const StoryPage1 = () => {
           very good customer service, an all round great experience. I would
           definately be coming back!
         </p>
-        <a href="./share-your-story" className="share">
+        <a href="./share-your-story" className="share-2">
           Share your own story!
         </a>
         <img src={line} alt="line" className="vector" />
@@ -28,4 +28,4 @@ const StoryPage1 = () => {
   );
 };
 
-export default StoryPage1;
+export default StoryPage2;

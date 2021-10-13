@@ -5,7 +5,7 @@ import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import StoryPage1 from "./components/StoryPage1";
-// import StoryPage2 from "./components/StoryPage2";
+import StoryPage2 from "./components/StoryPage2";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <StoryPage1 />
-      {/* <StoryPage2 /> */}
+      <StoryPage2 />
       <Footer />
     </div>
   );
